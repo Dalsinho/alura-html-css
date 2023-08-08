@@ -13,20 +13,12 @@ body {
     color: #F6F6F6;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    padding: 16px;
-    border-radius: 16px;
-    background-color: #22D4FD;
-}
-
 strong {
     color: #22D4FD;
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +26,9 @@ strong {
 
 .apresentacao__conteudo {
     width: 615px;
-    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -47,7 +41,20 @@ strong {
     font-family: 'Montserrat', sans-serif;
 }
 
-.apresentacao__conteudo__botao {
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botao {
+    font-size: 24px;
+    color: black;
+    width: 280px;
+    text-align: center;
+    text-decoration: none;
+    padding: 21.5px 0px;
+    border-radius: 16px;
+    background-color: #22D4FD;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
